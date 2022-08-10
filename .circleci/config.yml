@@ -11,7 +11,7 @@ jobs:
       - checkout
       - aws-s3/sync:
           from: .
-          to: 's3://anirudh.iam'
+          to: 's3://anirudhmantha'
           arguments: |
             --acl public-read \
             --cache-control "max-age=86400" \
